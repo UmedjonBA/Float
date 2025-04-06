@@ -1,0 +1,38 @@
+build/solution/floats.o: solution/floats.cpp solution/floats.h \
+ solution/Conversion.hpp solution/DynNum.hpp solution/LongInt.hpp
+build/tests/tests_float1024.o: tests/tests_float1024.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
+build/tests/tests_float32.o: tests/tests_float32.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
+build/tests/tests_float64.o: tests/tests_float64.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
+build/tests/tests_float8.o: tests/tests_float8.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
+build/tests/tests_general.o: tests/tests_general.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
+build/tests/utils.o: tests/utils.cpp tests/utils.h \
+ /home/umedjon/githab/Float/float-add/solution/floats.h \
+ /home/umedjon/githab/Float/float-add/solution/Conversion.hpp \
+ /home/umedjon/githab/Float/float-add/solution/DynNum.hpp \
+ /home/umedjon/githab/Float/float-add/solution/LongInt.hpp \
+ tests/source_location.hpp
